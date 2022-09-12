@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ltn1Nr69PDAQOfliXsvZwSDn+6/KK4cf3IIO0x+EveOj4FURErgy0h5gtbjBuj3nhEhs+973P5ijuw9qeKTnCA==",
+  "success": true,
+  "projectFilePath": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Shared/Shared.csproj",
+  "expectedPackageFiles": [
+    "/home/hungvu/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.6/microsoft.aspnetcore.app.ref.6.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

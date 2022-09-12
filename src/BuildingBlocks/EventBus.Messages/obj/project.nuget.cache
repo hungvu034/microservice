@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9d4IoI5bTXpUbQCNdAA3UqoneMnXe2iyZmqDtXjcU9X5OTMP7gi9kIvPJHMJtQiPh15OIxyIOYbCIKLoB6pV3Q==",
+  "success": true,
+  "projectFilePath": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj",
+  "expectedPackageFiles": [
+    "/home/hungvu/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.6/microsoft.aspnetcore.app.ref.6.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

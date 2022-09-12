@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BJt0v1ci2wOyFJ5FcvQnFwPkA37Z/whSDZwvR8N6XIVGQ+8NdvSLLeC0GJD24sGRDM7dLGYldIAaGNGJu6ZFIA==",
+  "success": true,
+  "projectFilePath": "/home/hungvu/aspnetcore-microservice/src/WebApps/WebHealthStatus/WebHealthStatus.csproj",
+  "expectedPackageFiles": [
+    "/home/hungvu/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.6/microsoft.aspnetcore.app.ref.6.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}
