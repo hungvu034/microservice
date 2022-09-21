@@ -10,3 +10,15 @@
 /home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Common.Logging/obj/Debug/net6.0/Common.Logging.dll
 /home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Common.Logging/obj/Debug/net6.0/ref/Common.Logging.dll
 /home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Common.Logging/obj/Debug/net6.0/Common.Logging.pdb
+/home/hungvu/microservice/src/BuildingBlocks/Common.Logging/bin/Debug/net6.0/Common.Logging.deps.json
+/home/hungvu/microservice/src/BuildingBlocks/Common.Logging/bin/Debug/net6.0/Common.Logging.dll
+/home/hungvu/microservice/src/BuildingBlocks/Common.Logging/bin/Debug/net6.0/ref/Common.Logging.dll
+/home/hungvu/microservice/src/BuildingBlocks/Common.Logging/bin/Debug/net6.0/Common.Logging.pdb
+/home/hungvu/microservice/src/BuildingBlocks/Common.Logging/obj/Debug/net6.0/Common.Logging.csproj.AssemblyReference.cache
+/home/hungvu/microservice/src/BuildingBlocks/Common.Logging/obj/Debug/net6.0/Common.Logging.GeneratedMSBuildEditorConfig.editorconfig
+/home/hungvu/microservice/src/BuildingBlocks/Common.Logging/obj/Debug/net6.0/Common.Logging.AssemblyInfoInputs.cache
+/home/hungvu/microservice/src/BuildingBlocks/Common.Logging/obj/Debug/net6.0/Common.Logging.AssemblyInfo.cs
+/home/hungvu/microservice/src/BuildingBlocks/Common.Logging/obj/Debug/net6.0/Common.Logging.csproj.CoreCompileInputs.cache
+/home/hungvu/microservice/src/BuildingBlocks/Common.Logging/obj/Debug/net6.0/Common.Logging.dll
+/home/hungvu/microservice/src/BuildingBlocks/Common.Logging/obj/Debug/net6.0/ref/Common.Logging.dll
+/home/hungvu/microservice/src/BuildingBlocks/Common.Logging/obj/Debug/net6.0/Common.Logging.pdb

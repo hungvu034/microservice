@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/PaOgD0yfgdLTXCAA6t0KZcnSZJYLAQy9zjh2DfFPjlLuHOY8zNLyBKHiKd0ySI5ctmLAeBNWF98tSnEZ3cu3w==",
+  "dgSpecHash": "jnpJW7DsW/YQQOxYTMF2mNcEtBiohTWvAdTcZy8VxZceFLECJ38xgOLyJ/TOf8LXCnH7kt5pm0HeKvefksJX6Q==",
   "success": true,
-  "projectFilePath": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Common.Logging/Common.Logging.csproj",
+  "projectFilePath": "/home/hungvu/microservice/src/BuildingBlocks/Common.Logging/Common.Logging.csproj",
   "expectedPackageFiles": [
     "/home/hungvu/.nuget/packages/microsoft.extensions.configuration/2.0.0/microsoft.extensions.configuration.2.0.0.nupkg.sha512",
     "/home/hungvu/.nuget/packages/microsoft.extensions.configuration.abstractions/3.1.8/microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",
@@ -28,7 +28,7 @@
     "/home/hungvu/.nuget/packages/serilog.sinks.debug/2.0.0/serilog.sinks.debug.2.0.0.nupkg.sha512",
     "/home/hungvu/.nuget/packages/serilog.sinks.file/5.0.0/serilog.sinks.file.5.0.0.nupkg.sha512",
     "/home/hungvu/.nuget/packages/system.text.json/4.6.0/system.text.json.4.6.0.nupkg.sha512",
-    "/home/hungvu/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.6/microsoft.aspnetcore.app.ref.6.0.6.nupkg.sha512"
+    "/home/hungvu/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
   ],
   "logs": []
 }

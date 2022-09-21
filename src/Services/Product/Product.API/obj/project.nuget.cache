@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yik7rX8d21C6ED0rLp12WrjA1/9dEygec2hAQ9uojYuwLTIZoXzZlo4EB0A0Z/Jwms5ZnYWMccr8y+X4dZgieA==",
+  "dgSpecHash": "fN3F6X4wU8y84UCRINwt71qwBbJE1BTqfcTIddocrV+G2bOtayCO3lHMJM8LPb6UaXlbMNu+/rEVRye1JauFiQ==",
   "success": true,
-  "projectFilePath": "/home/hungvu/aspnetcore-microservice/src/Services/Product/Product.API/Product.API.csproj",
+  "projectFilePath": "/home/hungvu/microservice/src/Services/Product/Product.API/Product.API.csproj",
   "expectedPackageFiles": [
     "/home/hungvu/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
     "/home/hungvu/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
@@ -136,7 +136,7 @@
     "/home/hungvu/.nuget/packages/system.xml.xmldocument/4.0.1/system.xml.xmldocument.4.0.1.nupkg.sha512",
     "/home/hungvu/.nuget/packages/system.xml.xpath/4.0.1/system.xml.xpath.4.0.1.nupkg.sha512",
     "/home/hungvu/.nuget/packages/system.xml.xpath.xmldocument/4.0.1/system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
-    "/home/hungvu/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.6/microsoft.aspnetcore.app.ref.6.0.6.nupkg.sha512"
+    "/home/hungvu/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
   ],
   "logs": []
 }

@@ -10,3 +10,15 @@
 /home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Shared/obj/Debug/net6.0/Shared.dll
 /home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Shared/obj/Debug/net6.0/ref/Shared.dll
 /home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Shared/obj/Debug/net6.0/Shared.pdb
+/home/hungvu/microservice/src/BuildingBlocks/Shared/bin/Debug/net6.0/Shared.deps.json
+/home/hungvu/microservice/src/BuildingBlocks/Shared/bin/Debug/net6.0/Shared.dll
+/home/hungvu/microservice/src/BuildingBlocks/Shared/bin/Debug/net6.0/ref/Shared.dll
+/home/hungvu/microservice/src/BuildingBlocks/Shared/bin/Debug/net6.0/Shared.pdb
+/home/hungvu/microservice/src/BuildingBlocks/Shared/obj/Debug/net6.0/Shared.csproj.AssemblyReference.cache
+/home/hungvu/microservice/src/BuildingBlocks/Shared/obj/Debug/net6.0/Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/hungvu/microservice/src/BuildingBlocks/Shared/obj/Debug/net6.0/Shared.AssemblyInfoInputs.cache
+/home/hungvu/microservice/src/BuildingBlocks/Shared/obj/Debug/net6.0/Shared.AssemblyInfo.cs
+/home/hungvu/microservice/src/BuildingBlocks/Shared/obj/Debug/net6.0/Shared.csproj.CoreCompileInputs.cache
+/home/hungvu/microservice/src/BuildingBlocks/Shared/obj/Debug/net6.0/Shared.dll
+/home/hungvu/microservice/src/BuildingBlocks/Shared/obj/Debug/net6.0/ref/Shared.dll
+/home/hungvu/microservice/src/BuildingBlocks/Shared/obj/Debug/net6.0/Shared.pdb

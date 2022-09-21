@@ -772,11 +772,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Common.Logging/Common.Logging.csproj",
+      "projectUniqueName": "/home/hungvu/microservice/src/BuildingBlocks/Common.Logging/Common.Logging.csproj",
       "projectName": "Common.Logging",
-      "projectPath": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Common.Logging/Common.Logging.csproj",
+      "projectPath": "/home/hungvu/microservice/src/BuildingBlocks/Common.Logging/Common.Logging.csproj",
       "packagesPath": "/home/hungvu/.nuget/packages/",
-      "outputPath": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Common.Logging/obj/",
+      "outputPath": "/home/hungvu/microservice/src/BuildingBlocks/Common.Logging/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/hungvu/.nuget/NuGet/NuGet.Config"
@@ -829,7 +829,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.6, 6.0.6]"
+            "version": "[6.0.8, 6.0.8]"
           }
         ],
         "frameworkReferences": {
@@ -837,7 +837,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.106/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.108/RuntimeIdentifierGraph.json"
       }
     }
   }

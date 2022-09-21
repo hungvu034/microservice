@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/hungvu/aspnetcore-microservice/src/Services/Product/Product.API/Product.API.csproj": {}
+    "/home/hungvu/microservice/src/Services/Product/Product.API/Product.API.csproj": {}
   },
   "projects": {
-    "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Common.Logging/Common.Logging.csproj": {
+    "/home/hungvu/microservice/src/BuildingBlocks/Common.Logging/Common.Logging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Common.Logging/Common.Logging.csproj",
+        "projectUniqueName": "/home/hungvu/microservice/src/BuildingBlocks/Common.Logging/Common.Logging.csproj",
         "projectName": "Common.Logging",
-        "projectPath": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Common.Logging/Common.Logging.csproj",
+        "projectPath": "/home/hungvu/microservice/src/BuildingBlocks/Common.Logging/Common.Logging.csproj",
         "packagesPath": "/home/hungvu/.nuget/packages/",
-        "outputPath": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Common.Logging/obj/",
+        "outputPath": "/home/hungvu/microservice/src/BuildingBlocks/Common.Logging/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/hungvu/.nuget/NuGet/NuGet.Config"
@@ -64,7 +64,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.6, 6.0.6]"
+              "version": "[6.0.8, 6.0.8]"
             }
           ],
           "frameworkReferences": {
@@ -72,18 +72,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.106/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.108/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Contracts/Contracts.csproj": {
+    "/home/hungvu/microservice/src/BuildingBlocks/Contracts/Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Contracts/Contracts.csproj",
+        "projectUniqueName": "/home/hungvu/microservice/src/BuildingBlocks/Contracts/Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Contracts/Contracts.csproj",
+        "projectPath": "/home/hungvu/microservice/src/BuildingBlocks/Contracts/Contracts.csproj",
         "packagesPath": "/home/hungvu/.nuget/packages/",
-        "outputPath": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Contracts/obj/",
+        "outputPath": "/home/hungvu/microservice/src/BuildingBlocks/Contracts/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/hungvu/.nuget/NuGet/NuGet.Config"
@@ -128,7 +128,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.6, 6.0.6]"
+              "version": "[6.0.8, 6.0.8]"
             }
           ],
           "frameworkReferences": {
@@ -136,18 +136,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.106/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.108/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Infrastructure/Infrastructure.csproj": {
+    "/home/hungvu/microservice/src/BuildingBlocks/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/home/hungvu/microservice/src/BuildingBlocks/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Infrastructure/Infrastructure.csproj",
+        "projectPath": "/home/hungvu/microservice/src/BuildingBlocks/Infrastructure/Infrastructure.csproj",
         "packagesPath": "/home/hungvu/.nuget/packages/",
-        "outputPath": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Infrastructure/obj/",
+        "outputPath": "/home/hungvu/microservice/src/BuildingBlocks/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/hungvu/.nuget/NuGet/NuGet.Config"
@@ -162,8 +162,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Contracts/Contracts.csproj": {
-                "projectPath": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Contracts/Contracts.csproj"
+              "/home/hungvu/microservice/src/BuildingBlocks/Contracts/Contracts.csproj": {
+                "projectPath": "/home/hungvu/microservice/src/BuildingBlocks/Contracts/Contracts.csproj"
               }
             }
           }
@@ -204,7 +204,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.6, 6.0.6]"
+              "version": "[6.0.8, 6.0.8]"
             }
           ],
           "frameworkReferences": {
@@ -212,18 +212,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.106/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.108/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Shared/Shared.csproj": {
+    "/home/hungvu/microservice/src/BuildingBlocks/Shared/Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Shared/Shared.csproj",
+        "projectUniqueName": "/home/hungvu/microservice/src/BuildingBlocks/Shared/Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Shared/Shared.csproj",
+        "projectPath": "/home/hungvu/microservice/src/BuildingBlocks/Shared/Shared.csproj",
         "packagesPath": "/home/hungvu/.nuget/packages/",
-        "outputPath": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Shared/obj/",
+        "outputPath": "/home/hungvu/microservice/src/BuildingBlocks/Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/hungvu/.nuget/NuGet/NuGet.Config"
@@ -262,7 +262,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.6, 6.0.6]"
+              "version": "[6.0.8, 6.0.8]"
             }
           ],
           "frameworkReferences": {
@@ -270,18 +270,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.106/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.108/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/hungvu/aspnetcore-microservice/src/Services/Product/Product.API/Product.API.csproj": {
+    "/home/hungvu/microservice/src/Services/Product/Product.API/Product.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hungvu/aspnetcore-microservice/src/Services/Product/Product.API/Product.API.csproj",
+        "projectUniqueName": "/home/hungvu/microservice/src/Services/Product/Product.API/Product.API.csproj",
         "projectName": "Product.API",
-        "projectPath": "/home/hungvu/aspnetcore-microservice/src/Services/Product/Product.API/Product.API.csproj",
+        "projectPath": "/home/hungvu/microservice/src/Services/Product/Product.API/Product.API.csproj",
         "packagesPath": "/home/hungvu/.nuget/packages/",
-        "outputPath": "/home/hungvu/aspnetcore-microservice/src/Services/Product/Product.API/obj/",
+        "outputPath": "/home/hungvu/microservice/src/Services/Product/Product.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/hungvu/.nuget/NuGet/NuGet.Config"
@@ -296,17 +296,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Common.Logging/Common.Logging.csproj": {
-                "projectPath": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Common.Logging/Common.Logging.csproj"
+              "/home/hungvu/microservice/src/BuildingBlocks/Common.Logging/Common.Logging.csproj": {
+                "projectPath": "/home/hungvu/microservice/src/BuildingBlocks/Common.Logging/Common.Logging.csproj"
               },
-              "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Contracts/Contracts.csproj": {
-                "projectPath": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Contracts/Contracts.csproj"
+              "/home/hungvu/microservice/src/BuildingBlocks/Contracts/Contracts.csproj": {
+                "projectPath": "/home/hungvu/microservice/src/BuildingBlocks/Contracts/Contracts.csproj"
               },
-              "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Infrastructure/Infrastructure.csproj"
+              "/home/hungvu/microservice/src/BuildingBlocks/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/hungvu/microservice/src/BuildingBlocks/Infrastructure/Infrastructure.csproj"
               },
-              "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Shared/Shared.csproj": {
-                "projectPath": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Shared/Shared.csproj"
+              "/home/hungvu/microservice/src/BuildingBlocks/Shared/Shared.csproj": {
+                "projectPath": "/home/hungvu/microservice/src/BuildingBlocks/Shared/Shared.csproj"
               }
             }
           }
@@ -373,7 +373,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.6, 6.0.6]"
+              "version": "[6.0.8, 6.0.8]"
             }
           ],
           "frameworkReferences": {
@@ -384,7 +384,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.106/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.108/RuntimeIdentifierGraph.json"
         }
       }
     }

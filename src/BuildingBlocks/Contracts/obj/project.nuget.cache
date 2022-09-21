@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9+ZL58VHKqdBY/kzaNHBrk8L5lp7ki6WqX81Y9wHeXptesrCEStN+pAeVp9sBVqGI8IO+7j1OO4dm/ceFRwI0g==",
+  "dgSpecHash": "DNcwB8a+TL7DzLUA58hYMi2NbiH1Rf4j6VqH7g6h1aD9N7Yvt7kDxfhalsS7ZBkYp9PM/ULRwJD5rFOHnZhmpw==",
   "success": true,
-  "projectFilePath": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Contracts/Contracts.csproj",
+  "projectFilePath": "/home/hungvu/microservice/src/BuildingBlocks/Contracts/Contracts.csproj",
   "expectedPackageFiles": [
     "/home/hungvu/.nuget/packages/microsoft.entityframeworkcore/6.0.8/microsoft.entityframeworkcore.6.0.8.nupkg.sha512",
     "/home/hungvu/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.8/microsoft.entityframeworkcore.abstractions.6.0.8.nupkg.sha512",
@@ -18,7 +18,7 @@
     "/home/hungvu/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/home/hungvu/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "/home/hungvu/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "/home/hungvu/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.6/microsoft.aspnetcore.app.ref.6.0.6.nupkg.sha512"
+    "/home/hungvu/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
   ],
   "logs": []
 }

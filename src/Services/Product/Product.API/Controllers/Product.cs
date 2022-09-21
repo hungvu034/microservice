@@ -62,9 +62,8 @@ namespace Product.API.Controllers
         //   await _repository.SaveChangesAsync();
         //    return Ok(id);
         // }
-        
         [HttpPost()]
-        public async Task<IActionResult> CreateProduct(CreateProductDto createProductDto){
+        public async Task<IActionResult> CreateProduct([FromBody]CreateProductDto createProductDto){
             CatalogProduct product = _mapper.Map<CatalogProduct>(createProductDto);
             await _repository.CreateProduct(product);
             await _repository.SaveChangesAsync();

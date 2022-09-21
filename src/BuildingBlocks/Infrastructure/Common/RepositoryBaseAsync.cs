@@ -10,13 +10,13 @@ using Microsoft.EntityFrameworkCore.Storage;
 
 namespace Infrastructure.Common
 {
-    public class RepositoryBaseAsync<T, K, TContext> : IRepositoryBaseAsync<T, K, TContext>
+    public class RepositoryBaseAsync<T, K, TContext> : RepositoryQueryBase<T,K,TContext> , IRepositoryBaseAsync<T, K, TContext>
     where T : EntityBase<K> 
     where TContext : DbContext 
     {
         private TContext _context ; 
         private IUnitofWork<TContext> _unitOfWork ; 
-        public RepositoryBaseAsync(TContext context, IUnitofWork<TContext> unitOfWork)
+        public RepositoryBaseAsync(TContext context, IUnitofWork<TContext> unitOfWork) : base(context)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
             _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork)) ;
@@ -30,24 +30,28 @@ namespace Infrastructure.Common
         public async Task<K> CreateAsync(T entity)
         {
             await _context.AddAsync(entity);
+            _context.SaveChanges();
             return entity.Id ; 
         }
 
         public async Task<IList<K>> CreateListAsync(IEnumerable<T> entities)
         {
             await _context.AddRangeAsync(entities);
+              _context.SaveChanges();
             return entities.Select(x => x.Id).ToList();  
         }
 
         public Task DeleteAsync(T entity)
         {
             _context.Set<T>().Remove(entity);
+              _context.SaveChanges();
             return Task.CompletedTask ; 
         }
 
         public Task DeleteListAsync(IEnumerable<T> entites)
         {
             _context.Set<T>().RemoveRange(entites);
+              _context.SaveChanges();
             return Task.CompletedTask ; 
         }
 
@@ -56,33 +60,6 @@ namespace Infrastructure.Common
             await SaveChangesAsync();
             await _context.Database.CommitTransactionAsync();
         }
-
-
-        public IQueryable<T> FindAll(bool trackChanges = false) =>
-            !trackChanges ? _context.Set<T>().AsNoTracking() : _context.Set<T>();
-        
-        public IQueryable<T> FindAll(bool trackChanges, params Expression<Func<T, object>>[] includeProperties)
-        {
-            var items = FindAll(trackChanges);
-            includeProperties.Aggregate(items , (cur , func) => cur.Include(func));
-            return items ; 
-        }
-
-
-        public IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression, bool trackChanges = false) =>
-            FindAll(trackChanges).Where(expression);
-        
-
-        public IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression, bool trackChanges = false, params Expression<Func<T, object>>[] includeProperties) =>
-            FindAll(trackChanges , includeProperties).Where(expression);
-
-       
-        public Task<T> GetByIdAsync(K id) =>
-            FindByCondition(x => id.Equals(x.Id)).FirstOrDefaultAsync();
-        
-
-        public Task<T?> GetByIdAsync(K id, params Expression<Func<T, object>>[] includeProperties) => 
-            FindByCondition(x => id.Equals(x.Id ) , false , includeProperties).FirstOrDefaultAsync();
 
 
         public Task RollBackTransactionAsync()
@@ -97,11 +74,13 @@ namespace Infrastructure.Common
 
         public Task UpdateAsync(T entity)
         {
-            if(_context.Entry(entity).State == EntityState.Unchanged){
-                return Task.CompletedTask ;
-            }
+            // if(_context.Entry(entity).State == EntityState.Unchanged){
+            //     return Task.CompletedTask ;
+            // }
             T exist = _context.Set<T>().Find(entity.Id); 
             _context.Entry(exist).CurrentValues.SetValues(entity);
+            _context.SaveChanges();
+            Console.WriteLine(entity.Id);
             return Task.CompletedTask ; 
         }
 

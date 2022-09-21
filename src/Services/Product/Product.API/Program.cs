@@ -8,14 +8,13 @@ using Serilog ;
 
 Log.Information("Starting Product API up"); 
 var builder = WebApplication.CreateBuilder(args);
-
 try{
-    builder.Host.UseSerilog(Common.Logging.Serilogger.Configure());
+     builder.Host.UseSerilog(Common.Logging.Serilogger.Configure());
     builder.Services.AddInfrastructure(builder.Configuration);
     builder.Services.AddScoped(typeof(IRepositoryBaseAsync<,,>) , typeof(RepositoryBaseAsync<,,>));
     var app = builder.Build();
     app.MigrateDatabase<ProductContext>(
-        async (context , service) => {
+     (context , service) => {
          var logger = service.GetRequiredService<Serilog.ILogger>(); 
          ProductContextSeed.SeedProductAsync(context , logger).Wait();
         }
@@ -27,7 +26,7 @@ try{
 catch(Exception ex){
     string TypeName = ex.GetType().Name;
     if(TypeName.Equals("StopTheHostException" , StringComparison.Ordinal)){
-        throw new Exception(); 
+        throw ; 
     }
         Log.Fatal(ex , $"Unhandled exception: {ex.Message}");
 }
