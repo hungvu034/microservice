@@ -15,7 +15,6 @@
 /home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Infrastructure/obj/Debug/net6.0/Infrastructure.pdb
 /home/hungvu/microservice/src/BuildingBlocks/Infrastructure/bin/Debug/net6.0/Infrastructure.deps.json
 /home/hungvu/microservice/src/BuildingBlocks/Infrastructure/bin/Debug/net6.0/Infrastructure.dll
-/home/hungvu/microservice/src/BuildingBlocks/Infrastructure/bin/Debug/net6.0/ref/Infrastructure.dll
 /home/hungvu/microservice/src/BuildingBlocks/Infrastructure/bin/Debug/net6.0/Infrastructure.pdb
 /home/hungvu/microservice/src/BuildingBlocks/Infrastructure/bin/Debug/net6.0/Contracts.dll
 /home/hungvu/microservice/src/BuildingBlocks/Infrastructure/bin/Debug/net6.0/Contracts.pdb
@@ -28,3 +27,4 @@
 /home/hungvu/microservice/src/BuildingBlocks/Infrastructure/obj/Debug/net6.0/Infrastructure.dll
 /home/hungvu/microservice/src/BuildingBlocks/Infrastructure/obj/Debug/net6.0/ref/Infrastructure.dll
 /home/hungvu/microservice/src/BuildingBlocks/Infrastructure/obj/Debug/net6.0/Infrastructure.pdb
+/home/hungvu/microservice/src/BuildingBlocks/Infrastructure/obj/Debug/net6.0/refint/Infrastructure.dll

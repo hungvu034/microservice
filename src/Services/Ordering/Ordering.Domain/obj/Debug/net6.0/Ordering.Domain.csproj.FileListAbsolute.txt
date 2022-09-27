@@ -1,0 +1,15 @@
+/home/hungvu/microservice/src/Services/Ordering/Ordering.Domain/bin/Debug/net6.0/Ordering.Domain.deps.json
+/home/hungvu/microservice/src/Services/Ordering/Ordering.Domain/bin/Debug/net6.0/Ordering.Domain.dll
+/home/hungvu/microservice/src/Services/Ordering/Ordering.Domain/bin/Debug/net6.0/Ordering.Domain.pdb
+/home/hungvu/microservice/src/Services/Ordering/Ordering.Domain/obj/Debug/net6.0/Ordering.Domain.csproj.AssemblyReference.cache
+/home/hungvu/microservice/src/Services/Ordering/Ordering.Domain/obj/Debug/net6.0/Ordering.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/hungvu/microservice/src/Services/Ordering/Ordering.Domain/obj/Debug/net6.0/Ordering.Domain.AssemblyInfoInputs.cache
+/home/hungvu/microservice/src/Services/Ordering/Ordering.Domain/obj/Debug/net6.0/Ordering.Domain.AssemblyInfo.cs
+/home/hungvu/microservice/src/Services/Ordering/Ordering.Domain/obj/Debug/net6.0/Ordering.Domain.csproj.CoreCompileInputs.cache
+/home/hungvu/microservice/src/Services/Ordering/Ordering.Domain/obj/Debug/net6.0/Ordering.Domain.dll
+/home/hungvu/microservice/src/Services/Ordering/Ordering.Domain/obj/Debug/net6.0/ref/Ordering.Domain.dll
+/home/hungvu/microservice/src/Services/Ordering/Ordering.Domain/obj/Debug/net6.0/Ordering.Domain.pdb
+/home/hungvu/microservice/src/Services/Ordering/Ordering.Domain/bin/Debug/net6.0/Contracts.dll
+/home/hungvu/microservice/src/Services/Ordering/Ordering.Domain/bin/Debug/net6.0/Contracts.pdb
+/home/hungvu/microservice/src/Services/Ordering/Ordering.Domain/obj/Debug/net6.0/Ordering.Domain.csproj.CopyComplete
+/home/hungvu/microservice/src/Services/Ordering/Ordering.Domain/obj/Debug/net6.0/refint/Ordering.Domain.dll

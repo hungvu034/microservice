@@ -4,7 +4,6 @@
 /home/hungvu/microservice/src/Services/Customer/Customer.API/bin/Debug/net6.0/Customer.API.deps.json
 /home/hungvu/microservice/src/Services/Customer/Customer.API/bin/Debug/net6.0/Customer.API.runtimeconfig.json
 /home/hungvu/microservice/src/Services/Customer/Customer.API/bin/Debug/net6.0/Customer.API.dll
-/home/hungvu/microservice/src/Services/Customer/Customer.API/bin/Debug/net6.0/ref/Customer.API.dll
 /home/hungvu/microservice/src/Services/Customer/Customer.API/bin/Debug/net6.0/Customer.API.pdb
 /home/hungvu/microservice/src/Services/Customer/Customer.API/bin/Debug/net6.0/AutoMapper.dll
 /home/hungvu/microservice/src/Services/Customer/Customer.API/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
@@ -55,3 +54,5 @@
 /home/hungvu/microservice/src/Services/Customer/Customer.API/obj/Debug/net6.0/Customer.API.genruntimeconfig.cache
 /home/hungvu/microservice/src/Services/Customer/Customer.API/bin/Debug/net6.0/Shared.dll
 /home/hungvu/microservice/src/Services/Customer/Customer.API/bin/Debug/net6.0/Shared.pdb
+/home/hungvu/microservice/src/Services/Customer/Customer.API/bin/Debug/net6.0/Newtonsoft.Json.dll
+/home/hungvu/microservice/src/Services/Customer/Customer.API/obj/Debug/net6.0/refint/Customer.API.dll

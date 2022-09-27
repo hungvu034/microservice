@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fN3F6X4wU8y84UCRINwt71qwBbJE1BTqfcTIddocrV+G2bOtayCO3lHMJM8LPb6UaXlbMNu+/rEVRye1JauFiQ==",
+  "dgSpecHash": "5dWEyy/hLUcjRMoQ4VKMbNeOeVFM80Iy890srq2uvytSniBYDvZQZh+xW5AfWFJI+3gbWwrAO9frSBwRuWTv+g==",
   "success": true,
   "projectFilePath": "/home/hungvu/microservice/src/Services/Product/Product.API/Product.API.csproj",
   "expectedPackageFiles": [
@@ -43,6 +43,7 @@
     "/home/hungvu/.nuget/packages/mysql.data.entityframeworkcore/8.0.22/mysql.data.entityframeworkcore.8.0.22.nupkg.sha512",
     "/home/hungvu/.nuget/packages/mysqlconnector/2.1.13/mysqlconnector.2.1.13.nupkg.sha512",
     "/home/hungvu/.nuget/packages/netstandard.library/1.6.0/netstandard.library.1.6.0.nupkg.sha512",
+    "/home/hungvu/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/home/hungvu/.nuget/packages/pomelo.entityframeworkcore.mysql/6.0.2/pomelo.entityframeworkcore.mysql.6.0.2.nupkg.sha512",
     "/home/hungvu/.nuget/packages/runtime.native.system/4.0.0/runtime.native.system.4.0.0.nupkg.sha512",
     "/home/hungvu/.nuget/packages/runtime.native.system.io.compression/4.1.0/runtime.native.system.io.compression.4.1.0.nupkg.sha512",
@@ -136,7 +137,7 @@
     "/home/hungvu/.nuget/packages/system.xml.xmldocument/4.0.1/system.xml.xmldocument.4.0.1.nupkg.sha512",
     "/home/hungvu/.nuget/packages/system.xml.xpath/4.0.1/system.xml.xpath.4.0.1.nupkg.sha512",
     "/home/hungvu/.nuget/packages/system.xml.xpath.xmldocument/4.0.1/system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
-    "/home/hungvu/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+    "/home/hungvu/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.9/microsoft.aspnetcore.app.ref.6.0.9.nupkg.sha512"
   ],
   "logs": []
 }

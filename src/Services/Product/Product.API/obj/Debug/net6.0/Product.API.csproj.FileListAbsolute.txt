@@ -156,3 +156,4 @@
 /home/hungvu/microservice/src/Services/Product/Product.API/obj/Debug/net6.0/ref/Product.API.dll
 /home/hungvu/microservice/src/Services/Product/Product.API/obj/Debug/net6.0/Product.API.pdb
 /home/hungvu/microservice/src/Services/Product/Product.API/obj/Debug/net6.0/Product.API.genruntimeconfig.cache
+/home/hungvu/microservice/src/Services/Product/Product.API/bin/Debug/net6.0/Newtonsoft.Json.dll

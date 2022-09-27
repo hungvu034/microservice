@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Common
 {
-    public class RepositoryQueryBase<T , K ,TContext> : IRepositoryQueryBase<T , K , TContext>
+    public class RepositoryQueryBase<T , K , TContext> : IRepositoryQueryBase<T , K , TContext>
     where T : EntityBase<K> 
     where TContext : DbContext
     { 

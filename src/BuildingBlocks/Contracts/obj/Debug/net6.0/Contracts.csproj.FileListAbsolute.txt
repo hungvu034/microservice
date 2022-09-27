@@ -12,7 +12,6 @@
 /home/hungvu/aspnetcore-microservice/src/BuildingBlocks/Contracts/obj/Debug/net6.0/Contracts.pdb
 /home/hungvu/microservice/src/BuildingBlocks/Contracts/bin/Debug/net6.0/Contracts.deps.json
 /home/hungvu/microservice/src/BuildingBlocks/Contracts/bin/Debug/net6.0/Contracts.dll
-/home/hungvu/microservice/src/BuildingBlocks/Contracts/bin/Debug/net6.0/ref/Contracts.dll
 /home/hungvu/microservice/src/BuildingBlocks/Contracts/bin/Debug/net6.0/Contracts.pdb
 /home/hungvu/microservice/src/BuildingBlocks/Contracts/obj/Debug/net6.0/Contracts.csproj.AssemblyReference.cache
 /home/hungvu/microservice/src/BuildingBlocks/Contracts/obj/Debug/net6.0/Contracts.GeneratedMSBuildEditorConfig.editorconfig
@@ -22,3 +21,4 @@
 /home/hungvu/microservice/src/BuildingBlocks/Contracts/obj/Debug/net6.0/Contracts.dll
 /home/hungvu/microservice/src/BuildingBlocks/Contracts/obj/Debug/net6.0/ref/Contracts.dll
 /home/hungvu/microservice/src/BuildingBlocks/Contracts/obj/Debug/net6.0/Contracts.pdb
+/home/hungvu/microservice/src/BuildingBlocks/Contracts/obj/Debug/net6.0/refint/Contracts.dll

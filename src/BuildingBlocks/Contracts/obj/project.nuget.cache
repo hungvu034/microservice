@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DNcwB8a+TL7DzLUA58hYMi2NbiH1Rf4j6VqH7g6h1aD9N7Yvt7kDxfhalsS7ZBkYp9PM/ULRwJD5rFOHnZhmpw==",
+  "dgSpecHash": "7z7JwONnoatCayDfYigqn3kgFIP3lGz16uHpYxSG2Rjo/lMyVG8IR5iLVoUVBPSo7uHdWbcHQTEsAvvFchsLmw==",
   "success": true,
   "projectFilePath": "/home/hungvu/microservice/src/BuildingBlocks/Contracts/Contracts.csproj",
   "expectedPackageFiles": [
@@ -17,8 +17,7 @@
     "/home/hungvu/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "/home/hungvu/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/home/hungvu/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
-    "/home/hungvu/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "/home/hungvu/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+    "/home/hungvu/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
