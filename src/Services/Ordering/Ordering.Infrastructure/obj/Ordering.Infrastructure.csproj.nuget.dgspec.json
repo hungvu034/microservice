@@ -25,6 +25,73 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/hungvu/microservice/src/BuildingBlocks/Shared/Shared.csproj": {
+                "projectPath": "/home/hungvu/microservice/src/BuildingBlocks/Shared/Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/hungvu/microservice/src/BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/hungvu/microservice/src/BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj",
+        "projectName": "EventBus.Messages",
+        "projectPath": "/home/hungvu/microservice/src/BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj",
+        "packagesPath": "/home/hungvu/.nuget/packages/",
+        "outputPath": "/home/hungvu/microservice/src/BuildingBlocks/EventBus.Messages/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/hungvu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -38,9 +105,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[6.0.8, )"
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
@@ -87,6 +162,9 @@
             "projectReferences": {
               "/home/hungvu/microservice/src/BuildingBlocks/Contracts/Contracts.csproj": {
                 "projectPath": "/home/hungvu/microservice/src/BuildingBlocks/Contracts/Contracts.csproj"
+              },
+              "/home/hungvu/microservice/src/BuildingBlocks/Shared/Shared.csproj": {
+                "projectPath": "/home/hungvu/microservice/src/BuildingBlocks/Shared/Shared.csproj"
               }
             }
           }
@@ -109,13 +187,37 @@
               "target": "Package",
               "version": "[11.0.0, )"
             },
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.8, )"
             },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "mongodb.driver": {
+              "target": "Package",
+              "version": "[2.18.0, )"
             }
           },
           "imports": [
@@ -171,6 +273,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -213,6 +321,12 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "/home/hungvu/microservice/src/BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj": {
+                "projectPath": "/home/hungvu/microservice/src/BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj"
+              },
+              "/home/hungvu/microservice/src/BuildingBlocks/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/hungvu/microservice/src/BuildingBlocks/Infrastructure/Infrastructure.csproj"
+              },
               "/home/hungvu/microservice/src/BuildingBlocks/Shared/Shared.csproj": {
                 "projectPath": "/home/hungvu/microservice/src/BuildingBlocks/Shared/Shared.csproj"
               },

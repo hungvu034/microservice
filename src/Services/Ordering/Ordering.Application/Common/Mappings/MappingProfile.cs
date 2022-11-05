@@ -12,6 +12,7 @@ namespace Ordering.Application.Common.Mappings
         
         private void ApplyMappingsFromAssembly(Assembly assembly)
         {
+            Console.Write("Apply MAppings from assembly");
             var mapFromType = typeof(IMapFrom<>);
             
             const string mappingMethodName = nameof(IMapFrom<object>.Mapping); // Mapping
@@ -29,11 +30,13 @@ namespace Ordering.Application.Common.Mappings
             {
                 var instance = Activator.CreateInstance(type);
                 
-                var methodInfo = type.GetMethod(mappingMethodName);
+                var methodInfo = type.GetMethod("Mapping");
                 Console.WriteLine(type.Name);
+               
                 if (methodInfo != null)
                 {
-                    methodInfo.Invoke(instance, new object[] { this });
+                    methodInfo.Invoke(instance, new object[] { this }); 
+                    Console.WriteLine(methodInfo.Name);
                 }
                 else
                 {

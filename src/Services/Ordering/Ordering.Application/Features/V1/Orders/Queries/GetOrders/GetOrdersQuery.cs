@@ -12,6 +12,5 @@ namespace Ordering.Application.Features.V1.Orders.Queries.GetOrders
         }
 
         public string UserName {  get;  private set; }
-        
     }
 }

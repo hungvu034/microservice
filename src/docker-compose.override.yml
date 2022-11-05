@@ -138,3 +138,14 @@ services:
       - CacheSetting:ConnectionString=basketdb:6379
     depends_on:
       - basketdb
+
+  order.api:
+    container_name: order.api
+    ports:
+      - 6005:80
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - ConnectionStrings:DefaultConnectionString=Server=orderdb;Database=OrderDb;User Id=sa;Password=Password123;Multipleactiveresultsets=true
+    depends_on:
+      - orderdb

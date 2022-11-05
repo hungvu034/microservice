@@ -1,12 +1,18 @@
+using System.Text;
 using Basket.API.Extensions;
+using Microsoft.AspNetCore.Mvc;
 using Serilog ;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
- builder.Host.UseSerilog(Common.Logging.Serilogger.Configure());
- builder.Services.AddService().ConfigureRedis(builder.Configuration);
+builder.Host.UseSerilog(Common.Logging.Serilogger.Configure());
+builder.Services.AddService()
+                .ConfigureMapper()
+                .ConfigureRedis(builder.Configuration)
+                .ConfigureMassTransit()
+                .ConfigureGrpcClient();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -23,6 +29,8 @@ if (app.Environment.IsDevelopment())
 // app.MapGet("/", async (context)=> context.Response.Redirect("/swagger"));
 app.UseHttpsRedirection();
 
+
+
 // app.MapWhen( (context) => {
 //    if(context.Request.Path.Value.Contains("xxx")){
 //         return true ; 
@@ -34,7 +42,13 @@ app.UseHttpsRedirection();
 //         Console.WriteLine("vao repsond tra ve");
 //     });
 // } );
-app.MapGet("/" ,async (context)=>{ context.Response.Redirect("/swagger");});
+app.MapGet("/{id?}" ,async (HttpContext context)=>{ 
+    byte[] body = new byte[200];
+    await context.Request.Body.ReadAsync(body,0,200);
+    var id = context.Request.RouteValues["id"];
+    Console.WriteLine(Encoding.UTF8.GetString(body) + "id" +  id + "");
+    context.Response.Redirect("/swagger");
+});
 
 app.UseAuthorization();
 

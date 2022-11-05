@@ -17,3 +17,7 @@
 /home/hungvu/microservice/src/Services/Ordering/Ordering.Application/obj/Debug/net6.0/refint/Ordering.Application.dll
 /home/hungvu/microservice/src/Services/Ordering/Ordering.Application/bin/Debug/net6.0/Shared.dll
 /home/hungvu/microservice/src/Services/Ordering/Ordering.Application/bin/Debug/net6.0/Shared.pdb
+/home/hungvu/microservice/src/Services/Ordering/Ordering.Application/bin/Debug/net6.0/Infrastructure.dll
+/home/hungvu/microservice/src/Services/Ordering/Ordering.Application/bin/Debug/net6.0/Infrastructure.pdb
+/home/hungvu/microservice/src/Services/Ordering/Ordering.Application/bin/Debug/net6.0/EventBus.Messages.dll
+/home/hungvu/microservice/src/Services/Ordering/Ordering.Application/bin/Debug/net6.0/EventBus.Messages.pdb

@@ -19,6 +19,6 @@
 /home/hungvu/microservice/src/BuildingBlocks/Shared/obj/Debug/net6.0/Shared.AssemblyInfo.cs
 /home/hungvu/microservice/src/BuildingBlocks/Shared/obj/Debug/net6.0/Shared.csproj.CoreCompileInputs.cache
 /home/hungvu/microservice/src/BuildingBlocks/Shared/obj/Debug/net6.0/Shared.dll
-/home/hungvu/microservice/src/BuildingBlocks/Shared/obj/Debug/net6.0/ref/Shared.dll
-/home/hungvu/microservice/src/BuildingBlocks/Shared/obj/Debug/net6.0/Shared.pdb
 /home/hungvu/microservice/src/BuildingBlocks/Shared/obj/Debug/net6.0/refint/Shared.dll
+/home/hungvu/microservice/src/BuildingBlocks/Shared/obj/Debug/net6.0/Shared.pdb
+/home/hungvu/microservice/src/BuildingBlocks/Shared/obj/Debug/net6.0/ref/Shared.dll

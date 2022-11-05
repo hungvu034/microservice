@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj": {}
+    "/home/hungvu/microservice/src/BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj": {}
   },
   "projects": {
-    "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj": {
+    "/home/hungvu/microservice/src/BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj",
+        "projectUniqueName": "/home/hungvu/microservice/src/BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj",
         "projectName": "EventBus.Messages",
-        "projectPath": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj",
+        "projectPath": "/home/hungvu/microservice/src/BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj",
         "packagesPath": "/home/hungvu/.nuget/packages/",
-        "outputPath": "/home/hungvu/aspnetcore-microservice/src/BuildingBlocks/EventBus.Messages/obj/",
+        "outputPath": "/home/hungvu/microservice/src/BuildingBlocks/EventBus.Messages/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/hungvu/.nuget/NuGet/NuGet.Config"
@@ -37,28 +37,37 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.6, 6.0.6]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.106/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }

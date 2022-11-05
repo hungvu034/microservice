@@ -30,28 +30,24 @@ namespace Infrastructure.Common
         public async Task<K> CreateAsync(T entity)
         {
             await _context.AddAsync(entity);
-            _context.SaveChanges();
             return entity.Id ; 
         }
 
         public async Task<IList<K>> CreateListAsync(IEnumerable<T> entities)
         {
             await _context.AddRangeAsync(entities);
-              _context.SaveChanges();
             return entities.Select(x => x.Id).ToList();  
         }
 
         public Task DeleteAsync(T entity)
         {
             _context.Set<T>().Remove(entity);
-              _context.SaveChanges();
             return Task.CompletedTask ; 
         }
 
         public Task DeleteListAsync(IEnumerable<T> entites)
         {
             _context.Set<T>().RemoveRange(entites);
-              _context.SaveChanges();
             return Task.CompletedTask ; 
         }
 
@@ -79,8 +75,6 @@ namespace Infrastructure.Common
             // }
             T exist = _context.Set<T>().Find(entity.Id); 
             _context.Entry(exist).CurrentValues.SetValues(entity);
-            _context.SaveChanges();
-            Console.WriteLine(entity.Id);
             return Task.CompletedTask ; 
         }
 
@@ -91,7 +85,5 @@ namespace Infrastructure.Common
                 await UpdateAsync(item);
             }  
         }
-
-      
     }
 }

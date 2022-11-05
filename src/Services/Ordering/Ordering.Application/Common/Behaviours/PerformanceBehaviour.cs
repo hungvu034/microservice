@@ -16,8 +16,7 @@ namespace Ordering.Application.Common.Behaviours
             _timer = new Stopwatch();
             _logger = logger;
         }
-
-        public async Task<TRespond> Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate<TRespond> next)
+        public async Task<TRespond> Handle(TRequest request, RequestHandlerDelegate<TRespond> next, CancellationToken cancellationToken)
         {
             _timer.Start();
             var respond = await next();
@@ -27,8 +26,7 @@ namespace Ordering.Application.Common.Behaviours
                 return respond ; 
             string requestName = typeof(TRequest).FullName ; 
             _logger.Warning($"Application Long running request {requestName} : {ElapsedMilliseconds} miliseconds") ;
-            return respond ;                                                                                                                                                                                                                                                                                                                            
-
+            return respond ;   
         }
     }                                                                                       
 }

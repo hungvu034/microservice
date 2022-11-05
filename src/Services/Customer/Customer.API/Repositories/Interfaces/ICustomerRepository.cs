@@ -7,7 +7,7 @@ using Customer.API.Persistence;
 
 namespace Customer.API.Repositories.Interfaces
 {
-    public interface ICustomerRepository : IRepositoryQueryBase< Entites.Customer, int , CustomerContext>
+    public interface ICustomerRepository : IRepositoryBaseAsync< Entites.Customer, int , CustomerContext>
     {
         Task<Entites.Customer> GetCustomerByUserNameAsync(string UserName);
 

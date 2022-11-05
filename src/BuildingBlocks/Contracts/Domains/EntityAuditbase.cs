@@ -8,6 +8,6 @@ namespace Contracts.Domains
     public abstract class EntityAuditbase<T> : EntityBase<T>, IAuditable
     {
         public DateTimeOffset CreatedDate { get; set; }
-         public DateTimeOffset? LastModifiedDate { get ; set; }
+        public DateTimeOffset? LastModifiedDate { get ; set; }
     }
 }

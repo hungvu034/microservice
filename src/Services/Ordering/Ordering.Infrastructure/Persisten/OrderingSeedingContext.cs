@@ -16,9 +16,9 @@ namespace Ordering.Infrastructure.Persisten
 
         public async Task InitialiseAsync(){
             try{
-                if(_context.Database.IsSqlServer()){
+              //  if(_context.Database.IsSqlServer()){
                     await _context.Database.MigrateAsync();
-                }
+               // }
             }
             catch{
                 _logger.Error("An exception throw occurred while initialise the database");

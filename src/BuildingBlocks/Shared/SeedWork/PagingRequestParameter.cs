@@ -1,6 +1,6 @@
 namespace Shared.SeedWork;
 
-class PagingRequestParameter
+public class PagingRequestParameter
 {
     private const int maxPageSize = 50 ;
     private int _pageNumber = 1 ; 
@@ -20,6 +20,6 @@ class PagingRequestParameter
         }
     }
     
-    public string OrderBy { get; set; }
+    public string? OrderBy { get; set; }
 
 }

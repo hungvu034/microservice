@@ -18,6 +18,7 @@ using AutoMapper;
 
 namespace Product.API.Controllers
 {
+    // api/product/
     [Route("api/[controller]")]
     public class ProductController : Controller
     {
@@ -31,8 +32,6 @@ namespace Product.API.Controllers
             _repository = repository ; 
             _mapper = mapper ; 
         }
-
-
 
         #region CRUD
         [HttpGet()]
@@ -80,6 +79,7 @@ namespace Product.API.Controllers
                 }
                 CatalogProduct newProduct = _mapper.Map(productDto , oldProduct);
                 await _repository.UpdateProduct(newProduct);
+                await _repository.SaveChangesAsync();
                 ProductDto result = _mapper.Map<ProductDto>(newProduct);
                 return Ok(result);
         }

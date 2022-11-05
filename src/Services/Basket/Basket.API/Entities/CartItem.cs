@@ -11,5 +11,6 @@ namespace Basket.API.Entities
         public decimal ItemPrice { get; set; }
         public string ItemNo { get; set; }
         public string ItemName { get; set; }
+        public int AvailableQuantity { get; set;}
     }
 }
